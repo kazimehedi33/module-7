@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive wedsite</title>
+    <style>
+        body{
+            border: 1px solid slateblue;
+            max-width:11140;
+            margin: auto;
+        }
+        .imags-container{
+            display: flex;
+        }
+        .imags-container{
+            width: 50%;
+        }
+        .imags-container img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px) {
+            .imags-container{
+                flex-direction: column-reverse;
+            }
+            .imags-container{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h3>responsive wedsite</h3>
+        <ol>
+            <li>viewport meta tag</li>
+            <li>css related tag</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </header>
+    <main>
+        <div class="imags-container">
+            <div>
+                <img src="imags/mehedi.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/8.jpg"alt="">
+            </div>
+
+        </div>
+       
+        
+    </main>
+</body>
+</html>
